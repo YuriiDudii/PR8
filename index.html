@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настільні ігри</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Настільні ігри</h1>
+        <div class="cart-icon">
+            <span id="cart-count">0</span>
+            <img src="images/cart-icon.png" alt="Корзина" onclick="openCart()">
+        </div>
+    </header>
+    <main>
+        <div class="product-list" id="productList">
+            <!-- Список товарів буде згенерований тут JavaScript-ом -->
+        </div>
+    </main>
+    <div class="cart-modal" id="cartModal">
+        <h2>Корзина</h2>
+        <ul id="cartItems"></ul>
+        <button onclick="checkout()">Оплатити</button>
+        <button onclick="closeCart()">Повернутись до покупок</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
