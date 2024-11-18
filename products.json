@@ -1,0 +1,42 @@
+{
+    "title": "Настільні ігри",
+    "products": [
+      {
+        "id": 1,
+        "name": "Монополія",
+        "price": 500,
+        "img": "images/monopoly.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Уно",
+        "price": 150,
+        "img": "images/uno.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Дженга",
+        "price": 300,
+        "img": "images/jenga.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Скраббл",
+        "price": 400,
+        "img": "images/scrabble.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Каркассон",
+        "price": 350,
+        "img": "images/carcassonne.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Мафія",
+        "price": 200,
+        "img": "images/mafia.jpg"
+      }
+    ]
+  }
+  
